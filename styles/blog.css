@@ -10,7 +10,14 @@ footer{
     text-align: center;
 }
 
-
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+}
+nav li:hover > .dropdown{
+   display: block;
+}
 
 
     
